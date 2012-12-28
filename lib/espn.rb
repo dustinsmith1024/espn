@@ -5,5 +5,5 @@ require 'espn/base'
 require 'espn/client'
 
 module ESPN
-  API_ENDPOINT = "http://api.espn.com/1/"
+  API_ENDPOINT = "http://api.espn.com/v1/"
 end
