@@ -6,7 +6,7 @@ module ESPN
       get "sports/#{options[:sportname]}", options
     end
     
-    def self.divisions_by_sport_and_league(options={})
+    def self.divisions(options={})
       get "sports/#{options[:sportname]}/#{options[:leagueabbrev]}", options
     end
   end
