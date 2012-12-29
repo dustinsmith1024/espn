@@ -1,9 +1,13 @@
 $:.unshift(File.dirname(__FILE__) + '/../lib')
 
 require 'httparty'
-require 'espn/base'
+require 'espn/configurable'
 require 'espn/client'
+require 'espn/sports'
+require 'espn/leagues'
 
 module ESPN
-  API_ENDPOINT = "http://api.espn.com/v1/"
+  class << self
+    include ESPN::Configurable
+  end
 end
