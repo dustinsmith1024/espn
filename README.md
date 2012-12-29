@@ -1,4 +1,4 @@
-Ruby client for the public ESPN API
+Ruby client for the public ESPN Developer API
 ===========
 
 See [http://developer.espn.com/docs](http://developer.espn.com/docs)
